@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="myButton">This is a button</button>
+
+    <script>
+        
+function setupButtonClickHandler() {
+    let clickCount = 0;
+
+    document.getElementById('myButton').addEventListener('click', function() {
+        clickCount++;
+        console.log('Button clicked ' + clickCount + ' times');
+    });
+}
+
+// Assume there is a button with id 'myButton' in the HTML
+setupButtonClickHandler();
+
+    </script>
+</body>
+</html>
+
+
+setCookie({user: {Username:"abd" , login: true}})
