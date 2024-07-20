@@ -20,7 +20,11 @@ function fetchUserData(userId, callback) {
 }
 
 function fetchUserOrders(userData, callback) {
-   ksa spijkehij
+    setTimeout(() => {
+        const userOrders = ['Order1', 'Order2']; // Simulated data
+            console.log('User orders fetched:', userOrders);
+        callback(userOrders);
+    }, 1000);
 }
 
 function fetchOrderDetails(orderId, callback) {
